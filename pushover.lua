@@ -1,14 +1,9 @@
---[[
-
-	==================================================
-	File:		pushover.lua
-	Author:		@luastoned
-	Version:	v1.0
-	==================================================
-
---]]
-
 local pushover = {
+	_VERSION		= "v1.0.0",
+	_DESCRIPTION	= "Pushover.net wrapper for Turbo.lua",
+	_URL			= "https://github.com/luastoned/turbo-pushover",
+	_LICENSE		= [[Copyright (c) 2014 @luastoned]],
+	
 	api_version = "1",
 	api_url = "https://api.pushover.net/",
 }
