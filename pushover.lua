@@ -2,14 +2,13 @@ local pushover = {
 	_VERSION		= "v1.0.0",
 	_DESCRIPTION	= "Pushover.net wrapper for Turbo.lua",
 	_URL			= "https://github.com/luastoned/turbo-pushover",
-	_LICENSE		= [[Copyright (c) 2014 @luastoned]],
+	_LICENSE		= [[Copyright (c) 2015 @LuaStoned]],
 	
 	api_version = "1",
 	api_url = "https://api.pushover.net/",
 }
 
--- Patch!
-require("patch")
+require("essentials")
 
 -- Always set me when using SSL, before loading framework.
 TURBO_SSL = true
